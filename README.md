@@ -1,7 +1,7 @@
 Gerenciador de Cursos e Equipes
 Este é um sistema de gerenciamento básico desenvolvido em Java, utilizando Swing para a interface gráfica (GUI) e Maven para o gerenciamento de dependências. O projeto foi concebido para auxiliar um professor na organização de cursos de informática básica infantil, gerenciando desenvolvedores terceirizados, projetos (cursos) e equipes.
 
-🚀 Requisitos e Funcionalidades
+Requisitos e Funcionalidades
 O sistema atende aos seguintes requisitos iniciais:
 
 1. Cadastro de Usuários/Desenvolvedores (Usuario.java)
@@ -28,7 +28,7 @@ Regra de Negócio (Requisito): Uma equipe/professores pode atuar em vários proj
 4. Exibição de Dados (Novo Recurso GUI)
 Permite visualizar todos os Usuários, Projetos e Equipes cadastrados durante a sessão atual.
 
-🛠️ Estrutura e Tecnologia
+Estrutura e Tecnologia
 O projeto foi construído com as seguintes tecnologias e estruturas:
 
 Linguagem: Java (JDK 17 ou superior)
@@ -45,27 +45,3 @@ Usuario.java	Modelo de dados para armazenar informações de um usuário.
 Projeto.java	Modelo de dados para armazenar informações de um projeto/curso.
 Equipe.java	Modelo de dados para armazenar informações de uma equipe.
 GerenciadorGUI.java	Classe principal com o método main() que inicia a interface e toda a lógica de exibição, coleta e armazenamento dos dados.
-
-Exportar para as Planilhas
-⚙️ Como Executar o Projeto
-Para rodar o Gerenciador de Cursos e Equipes, você precisa ter o JDK (Java Development Kit) e o Maven instalados na sua máquina.
-
-1. Pré-requisitos
-JDK 17 ou superior.
-
-Git (Opcional, mas recomendado para versionamento).
-
-2. Compilação e Execução via Terminal (VS Code, etc.)
-Abra o terminal na pasta raiz do projeto (onde está o arquivo pom.xml) e execute os seguintes comandos:
-
-A. Compilar o Projeto (Build):
-
-Bash
-
-mvn clean install
-B. Executar a Interface Gráfica:
-
-Bash
-
-mvn exec:java
-A janela da interface gráfica (Gerenciador de Projetos) será iniciada.
